@@ -21,10 +21,19 @@ nav{
 nav a{
     text-decoration: none;
 }
+nav a:hover{
+    text-shadow: 2px 2px red;
+    font-weight: bold;
+    text-decoration: underline;
+}
 nav h1{
     font-size: 42px;
     color: orangered;
     font-family: Impact;
+}
+nav h1:hover{
+    text-shadow: 1px 2px white;
+    text-decoration: underline;
 }
 #check{
     display: none;
@@ -93,7 +102,7 @@ footer {
    
  }
  .socialIcons a{
-    color: rgb(172, 162, 162);
+    color: rgb(21, 67, 82);
     margin: 0 20px;
     font-size: 24px;
  }
@@ -109,7 +118,7 @@ footer ul{
  footer a{
     text-decoration: none;
     font-size: 14px;
-    color: rgb(172, 162, 162);
+    color: rgb(21, 67, 82);
  }
  footer p{
     font-size: 14px;
@@ -150,6 +159,19 @@ table th{
     text-align: center;
 }
 
+
+.divForm{
+    background-color: rgb(21, 67, 82);
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+}
+.divForm h4{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
 
 
 
