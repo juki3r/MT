@@ -22,7 +22,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px rgb(168, 46, 46);
     font-weight: bold;
     text-decoration: underline;
 }
