@@ -96,9 +96,9 @@ section img{
 footer {
     text-align: center;
     position:absolute;
-    bottom:0;
     width:100%;
-    height:20px;   /* Height of the footer */
+    margin-top: calc(100vh - 90vh);
+    
    
  }
  .socialIcons a{
@@ -244,10 +244,15 @@ table th{
     .business p, .residential p{
         font-size: 13px;
     }
-    /* .business,.residential{
-        width: 45%;
-        padding: 10px;
+    /* footer{
+        margin-top: calc(100vh - 85%);
     } */
+    .divForm{
+        width: 70%;
+    }
+    .divForm h4{
+        font-size: 20px;
+    }
 }
 
 
@@ -317,6 +322,12 @@ table th{
     }
     .promo table th{
         font-size: 14px;
+    }
+    .divForm{
+        width: 100%;
+    }
+    .divForm h4{
+        font-size: 20px;
     }
 }
 
